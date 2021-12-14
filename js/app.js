@@ -5,7 +5,6 @@ const sr = ScrollReveal({
   distance: "80px",
   duration: 3000,
   delay: 400,
-  // reset: true,
 });
 
 sr.reveal(`.navlinks, .section__title`);

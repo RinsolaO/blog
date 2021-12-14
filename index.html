@@ -11,11 +11,11 @@
     <!-- Navbar -->
     <header>
       <nav>
-        <a href="" class="logo">Ọmọ́rìnsọ́lá</a>
+        <a href="/index.html" class="logo">Ọmọ́rìnsọ́lá</a>
         <ul class="navlinks">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li> <a href="#">Home</a> </li>
+          <li><a href="#blog">Blog</a> </li>
+          <li><a href="#footer">Contact</a> </li>
         </ul>
       </nav>
       <div class="header-content">
@@ -32,10 +32,13 @@
           </p>
         </div>
       </div>
+
+      </div>
+     
     </header>
 
     <!-- Blog -->
-    <div class="blog-container">
+    <div class="blog-container" id = 'blog'>
       <div class="blog-title">Blog Posts</div>
       <div class="blog-posts">
         <div class="blog-top">
@@ -54,14 +57,14 @@
           </div>
 
           <div class="blog-card">
-            <div class="blog-subtitle">What Is Cybersecurity</div>
+            <div class="blog-subtitle">Social Engineering</div>
             <div class="blog-content">
-              Cybersecurity is the practice of protecting systems, networks, and
-              programs from digital attacks.
+              It uses psychological manipulation to trick users into making
+              security mistakes or giving away sensitive information.
             </div>
             <div class="blog-bottom">
               <span> Oluwaferanmi Olatunji </span>
-              <a href="/cybersecurity.html">
+              <a href="/socialengineering.html">
                 <input type="button" value="Read More" />
               </a>
             </div>
@@ -70,28 +73,31 @@
 
         <div class="blog-down">
           <div class="blog-card">
-            <div class="blog-subtitle">What Is Cybersecurity</div>
+            <div class="blog-subtitle">Owasp Top 10 Security Risk</div>
             <div class="blog-content">
-              Cybersecurity is the practice of protecting systems, networks, and
-              programs from digital attacks.
+              The Open Web Application Security Project, is an NGO aimed at
+              improving the security of software applications. OWASP top 10 is a
+              standard awareness document for developers and web application
+              security.
             </div>
             <div class="blog-bottom">
               <span> Oluwaferanmi Olatunji </span>
-              <a href="/cybersecurity.html">
+              <a href="/owasp.html">
                 <input type="button" value="Read More" />
               </a>
             </div>
           </div>
 
           <div class="blog-card">
-            <div class="blog-subtitle">What Is Cybersecurity</div>
+            <div class="blog-subtitle">Access control</div>
             <div class="blog-content">
-              Cybersecurity is the practice of protecting systems, networks, and
-              programs from digital attacks.
+              Access control is a fundamental component of data security that
+              dictates who's allowed to access and use company information and
+              resources
             </div>
             <div class="blog-bottom">
               <span> Oluwaferanmi Olatunji </span>
-              <a href="/cybersecurity.html">
+              <a href="/accesscontrol.html">
                 <input type="button" value="Read More" />
               </a>
             </div>
@@ -101,8 +107,8 @@
     </div>
 
     <!-- Footer -->
-    <footer>
-      <div class="footer-container">
+    <footer id="footer">
+      <div class="footer-container" >
         <div class="footer-subscribe">
           <input type="email" placeholder="Email" id="" />
           <input type="button" value="Subscribe To Newsletter" />
@@ -132,12 +138,15 @@
           <input type="button" value="Submit" />
         </form>
         <div class="footer-links">
-          <a href=""> Twitter </a>
-          <a href=""> Facebook </a>
-          <a href=""> Instagram </a>
-          <a href=""> Linkedin </a>
+          <a href="https://twitter.com/rinsoIa" target="_blank"> Twitter </a>
+          <a href="https://facebook.com/feranmi.ayomide" target="_blank"> Facebook </a>
+          <a href="https://www.instagram.com/rinsola.o/" target="_blank"> Instagram </a>
+          <a href="https://www.linkedin.com/in/oluwaferanmi-olatunji-168449208/" target="_blank"> Linkedin </a>
         </div>
       </div>
     </footer>
+    <script src="./js/app.js"></script>
+    <script src="./js/scrollreveal.min.js"></script>
+ 
   </body>
 </html>
